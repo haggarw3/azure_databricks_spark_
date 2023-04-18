@@ -1,0 +1,11 @@
+
+Apache Spark is an open-source distributed computing system designed for big data processing.
+It was first released in 2012 by the Apache Software Foundation 
+
+At its core, Apache Spark provides a unified engine for distributed data processing that supports a 
+wide range of workloads, including batch processing, stream processing, machine learning, and graph processing. It can process large datasets in parallel across a cluster of computers, making it highly scalable and efficient.
+
+Apache Spark is built on top of a cluster manager, such as Apache Mesos, Hadoop YARN, or Kubernetes, and it supports multiple data sources, including HDFS, Amazon S3, Apache Cassandra, and Apache Kafka. It also includes a powerful set of libraries for machine learning (MLlib), graph processing (GraphX), and SQL and data processing (Spark SQL).
+
+
+Databricks is a unified analytics platform designed for big data processing and machine learning. It was founded in 2013 by the original creators of Apache Spark and is based on the open-source Apache Spark project.

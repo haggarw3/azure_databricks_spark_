@@ -1,0 +1,12 @@
+PySpark is the Python API for Apache Spark, a distributed computing framework designed to process and analyze large datasets in a fast and efficient manner. PySpark provides an interface to Spark programming in Python, allowing developers and data scientists to write Spark applications using Python syntax.
+
+With PySpark, you can use Spark’s distributed computing capabilities to process data in parallel across multiple nodes in a cluster, making it possible to analyze large datasets much faster than traditional single-node processing. PySpark supports a wide range of data sources, including Hadoop Distributed File System (HDFS), Apache Cassandra, Apache HBase, and Amazon S3.
+
+PySpark includes many high-level APIs for common tasks such as SQL queries, machine learning, graph processing, and stream processing. PySpark is also compatible with many popular Python libraries, such as NumPy, pandas, and scikit-learn, making it easy to integrate with your existing Python codebase.
+
+PySpark DynamicFrames are a Python API for working with semi-structured data in Apache Spark through AWS Glue, a fully managed ETL (Extract, Transform, Load) service in the AWS ecosystem. DynamicFrames are a distributed data processing abstraction based on Spark DataFrames, but with some additional features that make them particularly useful for ETL jobs where the input data can change frequently.
+
+PySpark DynamicFrames are similar to Spark DynamicFrames, but are designed to work with PySpark, the Python API for Apache Spark. They can handle semi-structured data such as JSON or XML data, and they can also handle schema changes automatically. This makes them particularly useful for ETL jobs where the input data can change frequently.
+
+--  more about Spark DynamicFrames in the other file
+
