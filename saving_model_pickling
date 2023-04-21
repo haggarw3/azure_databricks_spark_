@@ -1,0 +1,29 @@
+import pickle 
+# Save the Modle to file in the current working directory
+pkl_filename = "pickle_model_test_test.pkl"  
+
+## after you choose the best model  
+
+with open(pkl_filename, 'wb') as file:  
+    pickle.dump(model, file)
+
+
+
+
+
+# Load the Model back from file
+with open(pkl_filename, 'rb') as file:
+    pickled_model = pickle.load(file)
+pickled_model.predict(X_test)
+8:33
+# using joblib
+import joblib
+   
+# Save the model as a pickle in a file
+joblib.dump(model, 'model1.pkl')
+  
+# Load the model from the file
+model_from_joblib = joblib.load('model1.pkl')
+  
+# Use the loaded model to make predictions
+model_from_joblib.predict(X_test)
